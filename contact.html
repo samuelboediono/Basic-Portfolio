@@ -4,13 +4,15 @@
 
 	<title>My Personal Website</title>
 
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
 	
-	<div class="container">
+	<div class="container1">
 
 		<section id="Name">
 			<h1>Samuel Boediono</h1>
@@ -29,21 +31,24 @@
 			<h2><strong>Contact</strong></h2>
 			<hr>
 
-			<form action="/action_page.php">
-				Full name:
-				<br>
-				<input type="text" name="fullname" value="John Smith">
-				<br>
-				E-mail:
-				<br>
-				<input type="text" name="email" value="example@gmail.com">
-				<br>
-				Message:
-				<br>
-				<input type="text" name="message">
-				<br><br>
-				<input type="Submit" value="Submit">
-			</form>
+			<div class="contactform">
+
+				<form action="#" method="get">
+
+					<p class="name">Name</p>
+					<input type="text" class="inputName" name="Full-Name" placeholder="John Smith" required>
+
+					<p class="name">Email</p>
+					<input type="email" class="inputName" name="Full-Name" placeholder="example@gmail.com" required>
+
+					<p class="name">Message</p>
+					<textarea required></textarea>
+
+					<div class="sendBtn">
+						<button type="submit">Submit</button>
+					</div>
+				</form>
+			</div>
 		</section>
 
 		<section id="ConnectWithMe">
