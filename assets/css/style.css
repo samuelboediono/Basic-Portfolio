@@ -43,7 +43,7 @@ h2 {
 	width: 100%;
 	margin: 0 auto;
 	background-color: white;
-	height: 72.2px;
+	height: 71.5px;
 }
 
 .container::after {
@@ -99,6 +99,7 @@ h2 {
   padding: 0.5rem;
   background-color: #666666;
   text-align: center;
+  border-top: 7px solid #4aaaa5;
 }
 
 .work {
